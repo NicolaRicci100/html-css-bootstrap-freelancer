@@ -3,12 +3,6 @@
     --2nd-color:rgb(26,188,155);
     --3rd-color:rgb(58,84,109);
 }
-.debug{ /*TODO temporaneo*/
-    border: 2px dashed red;
-}
-.debug-b{ /*TODO temporaneo*/
-    border: 2px dashed blue;
-}
 
 /** breakpoints:
   xs: 0,
@@ -18,7 +12,15 @@
   xl: 1200px,
   xxl: 1400px **/
 
-
+.container{ /*TODO temporaneo*/
+    border: 2px dashed blue;
+}
+header, section, footer{ /*TODO temporaneo*/
+    border: 2px dashed red;
+}
+.row > div{ /*TODO temporaneo*/
+    border: 2px dashed lightskyblue;
+}
 header{
     background-color: var(--1st-color);
     min-height: 100px; /*TODO temporaneo*/

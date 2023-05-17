@@ -21,6 +21,10 @@ header, section, footer{ /*TODO temporaneo*/
 .row > div{ /*TODO temporaneo*/
     border: 2px dashed lightskyblue;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 header{
     background-color: var(--1st-color);
     min-height: 100px; /*TODO temporaneo*/

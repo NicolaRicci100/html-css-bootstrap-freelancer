@@ -4,7 +4,7 @@
     --3rd-color:rgb(58,84,109);
 }
 .debug{ /*TODO temporaneo*/
-    border: 2px dashed red; 
+    border: 2px dashed red;
 }
 .debug-b{ /*TODO temporaneo*/
     border: 2px dashed blue;
@@ -33,5 +33,10 @@ section{
 }
 .end-section{
     background-color:var(--3rd-color);
+    color: white; /*TODO temporaneo*/
+}
+footer{
+    background-color: var(--1st-color);
+    min-height: 100px; /*TODO temporaneo*/
     color: white; /*TODO temporaneo*/
 }

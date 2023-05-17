@@ -1,0 +1,33 @@
+:root{
+    --1st-color:rgb(44,62,79);
+    --2nd-color:rgb(26,188,155);
+}
+.debug{ /*TODO temporaneo*/
+    border: 2px dashed grey; 
+}
+
+/** breakpoints:
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px **/
+
+
+header{
+    background-color: var(--1st-color);
+    min-height: 100px; /*TODO temporaneo*/
+    color: white; /*TODO temporaneo*/
+}
+section{
+    min-height: 500px; /*TODO temporaneo*/
+}
+.jumbotron{
+    background-color: var(--2nd-color);
+    color: white; /*TODO temporaneo*/
+}
+ul li{
+    list-style-type: none;
+    border: 2px dashed grey; /*TODO temporaneo*/
+}

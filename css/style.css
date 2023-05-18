@@ -19,12 +19,10 @@ nav{
 }
 .jumbotron{
     background-color: var(--2nd-color);
+    color: white;
 }
 img{
     width: 18rem;
-}
-.my-star{
-    color: white;
 }
 .my-line{
     background-color: white;

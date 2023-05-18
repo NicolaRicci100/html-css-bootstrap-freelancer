@@ -17,7 +17,22 @@
 nav{
     background-color: var(--1st-color);
 }
-
+.jumbotron{
+    background-color: var(--2nd-color);
+}
+img{
+    width: 18rem;
+}
+.my-star{
+    color: white;
+}
+.my-line{
+    background-color: white;
+    width: 15vw;
+    height: 0.25rem;
+    margin: 0 0.5rem 0;
+    border-radius: 1rem;
+}
 
 /* .container{ 
     border: 2px dashed blue;

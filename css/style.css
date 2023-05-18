@@ -17,19 +17,22 @@
 nav{
     background-color: var(--1st-color);
 }
-.jumbotron{
+#jumbotron{
     background-color: var(--2nd-color);
     color: white;
 }
 img{
     width: 18rem;
 }
+.my-grey{
+    color: var(--3rd-color);
+}
 .my-line{
-    background-color: white;
     width: 15vw;
     height: 0.25rem;
     margin: 0 0.5rem 0;
     border-radius: 1rem;
+    background-color: var(--3rd-color);
 }
 
 /* .container{ 

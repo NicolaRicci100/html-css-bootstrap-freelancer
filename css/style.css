@@ -17,7 +17,7 @@
 nav{
     background-color: var(--1st-color);
 }
-#jumbotron{
+#jumbotron, #about{
     background-color: var(--2nd-color);
     color: white;
 }

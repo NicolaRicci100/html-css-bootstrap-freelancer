@@ -3,17 +3,6 @@
     --2nd-color:rgb(26,188,155);
     --3rd-color:rgb(58,84,109);
 }
-
-/** breakpoints:
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px **/
-
-
-
 nav{
     background-color: var(--1st-color);
 }
@@ -27,6 +16,12 @@ img{
 .my-grey{
     color: var(--3rd-color);
 }
+.my-green{
+    color: var(--2nd-color);
+}
+.bg-green{
+    background-color: var(--2nd-color);
+}
 .my-line{
     width: 15vw;
     height: 0.25rem;
@@ -34,38 +29,22 @@ img{
     border-radius: 1rem;
     background-color: var(--3rd-color);
 }
-
-/* .container{ 
-    border: 2px dashed blue;
+#contact-me .form-control{
+    border-width: 0 0 1px 0;
+    border-radius: 0;
 }
-header, section, footer{ 
-    border: 2px dashed red;
+#contact-me::placeholder{
+    color: var(--3rd-color);
 }
-.row > div{ 
-    border: 2px dashed lightskyblue;
+#contact-me textarea{
+    height: 10rem;
 }
-a{
-    text-decoration: none;
+#end-section{
+    background-color: var(--3rd-color);
     color: white;
-}
-header{
-    background-color: var(--1st-color);
-    min-height: 100px; 
-    color: white; 
-}
-section{
-    min-height: 500px; 
-}
-.jumbotron{
-    background-color: var(--2nd-color);
-    color: white; 
-}
-.end-section{
-    background-color:var(--3rd-color);
-    color: white; 
 }
 footer{
     background-color: var(--1st-color);
-    min-height: 100px; 
-    color: white; 
-} */
+    color: white;
+    padding: 2rem 0 2rem;
+}
